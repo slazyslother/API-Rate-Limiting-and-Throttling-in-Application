@@ -1,6 +1,6 @@
 # API Rate Limiting and Throttling in Application
 
-This project involves implementing rate limiting in a C++ API to prevent abuse and ensure fair usage. Rate limiting restricts the number of requests a client can make within a specific time frame. Libraries or services like Redis will be used to manage rate limits. Additionally, monitoring and adjusting rate limits based on usage patterns will be implemented to optimize performance and ensure scalability.
+This project involves implementing rate limiting in a API to prevent abuse and ensure fair usage. Rate limiting restricts the number of requests a client can make within a specific time frame. Libraries or services like Redis will be used to manage rate limits. Additionally, monitoring and adjusting rate limits based on usage patterns will be implemented to optimize performance and ensure scalability.
 
 <br/>
 
@@ -17,7 +17,7 @@ This project involves implementing rate limiting in a C++ API to prevent abuse a
 ## Utility Functions
 
 - __Rate Limit Middleware__: Develop middleware to intercept incoming requests and enforce rate limits based on client identifiers (e.g., IP address, API key).
-- __Redis Integration__: Integrate Redis client libraries (e.g., hiredis) to interact with Redis server for storing and retrieving rate limit data.
+- __Redis Integration__: Integrate Redis client libraries to interact with Redis server for storing and retrieving rate limit data.
 - __Usage Monitoring__: Implement mechanisms to monitor API usage patterns, such as request frequency and client behavior.
 - __Dynamic Rate Adjustment__: Analyze usage metrics and adjust rate limits dynamically based on traffic patterns and system load.
 
